@@ -18,6 +18,18 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## APIs
+
+```
+# Check Status
+curl --location --request GET 'http://localhost:3000/v1/upload'
+
+# Upload Image
+curl --location --request POST 'http://localhost:3000/v1/upload' \
+--form 'file=@"/home/rajdeep/Pictures/Wallpapers/617bcdf2-dba9-4731-9392-93a079f3d52c.jpg"'
+
+```
+
 ## Test
 
 ```bash
