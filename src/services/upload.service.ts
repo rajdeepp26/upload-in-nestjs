@@ -7,7 +7,7 @@ export class UploadService {
    * get system status
    * @returns {string}
    */
-  async getStatus(): Promise<string> {
+  async getSystemStatus(): Promise<string> {
     try {
       return 'System is up!';
     } catch (error) {
